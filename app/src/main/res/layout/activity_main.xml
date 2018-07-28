@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/imbFruta01"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/abacaxi"
+            android:tag="abacaxi"
+            android:scaleType="fitXY"
+            android:background="@android:color/transparent"
+            app:layout_constraintBottom_toTopOf="@+id/txvFuta01"
+            app:layout_constraintEnd_toStartOf="@+id/imbFruta02"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imbFruta02"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/banana"
+            android:scaleType="fitXY"
+            android:background="@android:color/transparent"
+            app:layout_constraintBottom_toTopOf="@+id/txvFuta02"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imbFruta01"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imbFruta03"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/caju"
+            android:scaleType="fitXY"
+            android:background="@android:color/transparent"
+            app:layout_constraintBottom_toTopOf="@+id/txvFuta03"
+            app:layout_constraintEnd_toStartOf="@+id/imbFruta04"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txvFuta01" />
+
+        <ImageButton
+            android:id="@+id/imbFruta04"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/jabuticaba"
+            android:scaleType="fitXY"
+            android:background="@android:color/transparent"
+            app:layout_constraintBottom_toTopOf="@+id/txvFuta04"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imbFruta03"
+            app:layout_constraintTop_toBottomOf="@+id/txvFuta02" />
+
+        <ImageButton
+            android:id="@+id/imbFruta05"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/kiwi"
+            android:scaleType="fitXY"
+            android:background="@android:color/transparent"
+            app:layout_constraintBottom_toTopOf="@+id/txvFuta05"
+            app:layout_constraintEnd_toStartOf="@+id/imbFruta06"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txvFuta03" />
+
+        <ImageButton
+            android:id="@+id/imbFruta06"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/limao"
+            android:scaleType="fitXY"
+            android:background="@android:color/transparent"
+            app:layout_constraintBottom_toTopOf="@+id/txvFuta06"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imbFruta05"
+            app:layout_constraintTop_toBottomOf="@+id/txvFuta04" />
+
+        <ImageButton
+            android:id="@+id/imbFruta07"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/maca"
+            android:scaleType="fitXY"
+            android:background="@android:color/transparent"
+            app:layout_constraintBottom_toTopOf="@+id/txvFuta07"
+            app:layout_constraintEnd_toStartOf="@+id/imbFruta08"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txvFuta05" />
+
+        <ImageButton
+            android:id="@+id/imbFruta08"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/maracuja"
+            android:scaleType="fitXY"
+            android:background="@android:color/transparent"
+            app:layout_constraintBottom_toTopOf="@+id/txvFuta08"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imbFruta07"
+            app:layout_constraintTop_toBottomOf="@+id/txvFuta06" />
+
+        <ImageButton
+            android:id="@+id/imbFruta09"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/melancia"
+            android:scaleType="fitXY"
+            android:background="@android:color/transparent"
+            app:layout_constraintBottom_toTopOf="@+id/txvFuta09"
+            app:layout_constraintEnd_toStartOf="@+id/imbFruta10"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txvFuta07" />
+
+        <ImageButton
+            android:id="@+id/imbFruta10"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/morango"
+            android:scaleType="fitXY"
+            android:background="@android:color/transparent"
+            app:layout_constraintBottom_toTopOf="@+id/txvFuta10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imbFruta09"
+            app:layout_constraintTop_toBottomOf="@+id/txvFuta08" />
+
+        <TextView
+            android:id="@+id/txvFuta01"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Abacaxi"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/imbFruta03"
+            app:layout_constraintEnd_toStartOf="@+id/txvFuta02"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imbFruta01" />
+
+        <TextView
+            android:id="@+id/txvFuta02"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Banana"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/imbFruta04"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/txvFuta01"
+            app:layout_constraintTop_toBottomOf="@+id/imbFruta02" />
+
+        <TextView
+            android:id="@+id/txvFuta03"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Caju"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/imbFruta05"
+            app:layout_constraintEnd_toStartOf="@+id/txvFuta04"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imbFruta03" />
+
+        <TextView
+            android:id="@+id/txvFuta04"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Jabuticaba"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/imbFruta06"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/txvFuta03"
+            app:layout_constraintTop_toBottomOf="@+id/imbFruta04" />
+
+        <TextView
+            android:id="@+id/txvFuta05"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Kiwi"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/imbFruta07"
+            app:layout_constraintEnd_toStartOf="@+id/txvFuta06"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imbFruta05" />
+
+        <TextView
+            android:id="@+id/txvFuta06"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Limão"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/imbFruta08"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/txvFuta05"
+            app:layout_constraintTop_toBottomOf="@+id/imbFruta06" />
+
+        <TextView
+            android:id="@+id/txvFuta07"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Maçã"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/imbFruta09"
+            app:layout_constraintEnd_toStartOf="@+id/txvFuta08"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imbFruta07" />
+
+        <TextView
+            android:id="@+id/txvFuta08"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Maracujá"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/imbFruta10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/txvFuta07"
+            app:layout_constraintTop_toBottomOf="@+id/imbFruta08" />
+
+        <TextView
+            android:id="@+id/txvFuta09"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Melancia"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/txvFuta10"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imbFruta09" />
+
+        <TextView
+            android:id="@+id/txvFuta10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Morango"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/txvFuta09"
+            app:layout_constraintTop_toBottomOf="@+id/imbFruta10" />
+
+        <TextView
+            android:id="@+id/txvContador04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_light"
+            android:text="0"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imbFruta04"
+            app:layout_constraintEnd_toEndOf="@+id/imbFruta04" />
+
+        <TextView
+            android:id="@+id/txvContador06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_light"
+            android:text="0"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imbFruta06"
+            app:layout_constraintEnd_toEndOf="@+id/imbFruta06" />
+
+        <TextView
+            android:id="@+id/txvContador05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_light"
+            android:text="0"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imbFruta05"
+            app:layout_constraintEnd_toEndOf="@+id/imbFruta05" />
+
+        <TextView
+            android:id="@+id/txvContador08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_light"
+            android:text="0"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imbFruta08"
+            app:layout_constraintEnd_toEndOf="@+id/imbFruta08" />
+
+        <TextView
+            android:id="@+id/txvContador07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_light"
+            android:text="0"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imbFruta07"
+            app:layout_constraintEnd_toEndOf="@+id/imbFruta07" />
+
+        <TextView
+            android:id="@+id/txvContador10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_light"
+            android:text="0"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imbFruta10"
+            app:layout_constraintEnd_toEndOf="@+id/imbFruta10" />
+
+        <TextView
+            android:id="@+id/txvContador09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_light"
+            android:text="0"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imbFruta09"
+            app:layout_constraintEnd_toEndOf="@+id/imbFruta09" />
+
+        <TextView
+            android:id="@+id/txvContador03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_light"
+            android:text="0"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imbFruta03"
+            app:layout_constraintEnd_toEndOf="@+id/imbFruta03" />
+
+        <TextView
+            android:id="@+id/txvContador02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_light"
+            android:text="0"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imbFruta02"
+            app:layout_constraintEnd_toEndOf="@+id/imbFruta02" />
+
+        <TextView
+            android:id="@+id/txvContador01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_light"
+            android:text="0"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imbFruta01"
+            app:layout_constraintEnd_toEndOf="@+id/imbFruta01" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>
